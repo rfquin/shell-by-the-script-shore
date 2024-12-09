@@ -1,3 +1,4 @@
+#!/bin/bash
 while getopts "hvf:" flag; do
  case $flag in
    playlist-mp3) # Handle the -h flag
